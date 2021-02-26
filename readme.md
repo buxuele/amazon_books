@@ -3,10 +3,8 @@
 
 #### 1. 效果图
 - 这里放2张 Excel 的截图。
-
-- 这里等上传之后再来修改。
-![全部图书的链接]("./data/2021-02-26--22-34-18.png")
-![全部图书的详情]("./data/2021-02-26--22-34-18.png")
+![全部图书的链接]("https://raw.githubusercontent.com/buxuele/amazon_books/master/data/book_urls_2021-02-23--20-58-54.png")
+![全部图书的详情]("https://raw.githubusercontent.com/buxuele/amazon_books/master/data/2021-02-26--22-34-18.png")
 
 
 
