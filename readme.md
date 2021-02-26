@@ -3,9 +3,8 @@
 
 #### 1. 效果图
 - 这里放2张 Excel 的截图。
-![全部图书的链接]("https://raw.githubusercontent.com/buxuele/amazon_books/master/data/book_urls_2021-02-23--20-58-54.png")
-![全部图书的详情]("https://raw.githubusercontent.com/buxuele/amazon_books/master/data/2021-02-26--22-34-18.png")
-
+![全部图书的链接](https://raw.githubusercontent.com/buxuele/amazon_books/master/data/book_urls_2021-02-23--20-58-54.png)
+![全部图书的详情](https://raw.githubusercontent.com/buxuele/amazon_books/master/data/2021-02-26--22-34-18.png)
 
 
 #### 2. 思路
@@ -17,15 +16,5 @@
 - 个人喜欢直接保存在 MongoDB
 - 但是保存到 Excel 的话，视觉效果更好一些，也更友好一些。
 
-
 #### 4.下一步 todo 
 - 尝试爬取其他类目下的图书。
-
-# 被封了几次
-- 首先是修改一些请求头部信息
-- 控制速度
-- 手动在浏览器中输入验证码， 这里可以尝试使用自动化做。
-
-
-
-
