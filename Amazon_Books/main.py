@@ -4,7 +4,16 @@
 # contact: fanchuangwater@gmail.com
 # about:
 
-# 也许是没有必要的。
-# 恭喜，我再次被封了。！！！！明天再试试吧。
+
+# 这里写一个执行的入口，看起来更简洁一些
+
+from Amazon_Books.all_books_3 import AllBookInfo
+
+
+if __name__ == '__main__':
+    a = AllBookInfo()
+    a.run()
+
+
 
 

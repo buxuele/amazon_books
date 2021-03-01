@@ -1,8 +1,10 @@
 __pycache__/
 venv/
 .idea/
-utils/*.txt
+
+utils/china.txt
 data/*.log
-
-
+secret.txt
+config.py
+data/*.xlsx
 

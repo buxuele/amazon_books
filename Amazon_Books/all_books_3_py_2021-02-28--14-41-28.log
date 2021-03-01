@@ -1,0 +1,220 @@
+INFO:start logging on: 2021-02-28--14-41-28 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01CU6MSQU/ref=sr_1_772?dchild=1&qid=1614002050&s=digital-text&sr=1-772 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B078N348X8/ref=sr_1_773?dchild=1&qid=1614002050&s=digital-text&sr=1-773 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01HZFHHQM/ref=sr_1_774?dchild=1&qid=1614002050&s=digital-text&sr=1-774 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08R8P4JSP/ref=sr_1_775?dchild=1&qid=1614002050&s=digital-text&sr=1-775 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B082TN2HV4/ref=sr_1_776?dchild=1&qid=1614002050&s=digital-text&sr=1-776 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07L9XD91D/ref=sr_1_777?dchild=1&qid=1614002050&s=digital-text&sr=1-777 HTTP/1.1" 200 None
+INFO:start logging on: 2021-02-28--14-41-31 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00GMXHYG2/ref=sr_1_778?dchild=1&qid=1614002050&s=digital-text&sr=1-778 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B074DV86PY/ref=sr_1_779?dchild=1&qid=1614002050&s=digital-text&sr=1-779 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07FQMBYK9/ref=sr_1_780?dchild=1&qid=1614002050&s=digital-text&sr=1-780 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01F7IEMGC/ref=sr_1_781?dchild=1&qid=1614002050&s=digital-text&sr=1-781 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B087TFK4J4/ref=sr_1_782?dchild=1&qid=1614002050&s=digital-text&sr=1-782 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00IR4A2KO/ref=sr_1_783?dchild=1&qid=1614002050&s=digital-text&sr=1-783 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01HLURAGI/ref=sr_1_784?dchild=1&qid=1614002050&s=digital-text&sr=1-784 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07S1MBZCV/ref=sr_1_801?dchild=1&qid=1614002050&s=digital-text&sr=1-801 HTTP/1.1" 200 None
+INFO:start logging on: 2021-02-28--14-41-35 
+WARNING:failed on this book, please handle error!!!
+INFO:start logging on: 2021-02-28--14-41-36 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07VP2R947/ref=sr_1_802?dchild=1&qid=1614002050&s=digital-text&sr=1-802 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07QV1KFLC/ref=sr_1_803?dchild=1&qid=1614002050&s=digital-text&sr=1-803 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08VRWV3ZL/ref=sr_1_804?dchild=1&qid=1614002050&s=digital-text&sr=1-804 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B086M7RCV9/ref=sr_1_805?dchild=1&qid=1614002050&s=digital-text&sr=1-805 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B0858Y5TQ8/ref=sr_1_806?dchild=1&qid=1614002050&s=digital-text&sr=1-806 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00XVS3LMM/ref=sr_1_807?dchild=1&qid=1614002050&s=digital-text&sr=1-807 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08V398L78/ref=sr_1_808?dchild=1&qid=1614002050&s=digital-text&sr=1-808 HTTP/1.1" 503 1319
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08PB1SP6F/ref=sr_1_809?dchild=1&qid=1614002050&s=digital-text&sr=1-809 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07BGV39D3/ref=sr_1_810?dchild=1&qid=1614002050&s=digital-text&sr=1-810 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B086GDGPNB/ref=sr_1_811?dchild=1&qid=1614002050&s=digital-text&sr=1-811 HTTP/1.1" 503 843
+INFO:start logging on: 2021-02-28--14-41-40 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B074WKRFKT/ref=sr_1_812?dchild=1&qid=1614002050&s=digital-text&sr=1-812 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01MQ62Q5Z/ref=sr_1_813?dchild=1&qid=1614002050&s=digital-text&sr=1-813 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01KHJXE42/ref=sr_1_815?dchild=1&qid=1614002050&s=digital-text&sr=1-815 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B015316YU0/ref=sr_1_814?dchild=1&qid=1614002050&s=digital-text&sr=1-814 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B072XL9S8K/ref=sr_1_816?dchild=1&qid=1614002050&s=digital-text&sr=1-816 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07Z81H9NL/ref=sr_1_817?dchild=1&qid=1614002050&s=digital-text&sr=1-817 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B088QYRPJC/ref=sr_1_818?dchild=1&qid=1614002050&s=digital-text&sr=1-818 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00CBBKRQ8/ref=sr_1_819?dchild=1&qid=1614002050&s=digital-text&sr=1-819 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08BHNX17F/ref=sr_1_820?dchild=1&qid=1614002050&s=digital-text&sr=1-820 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07XDGW4FV/ref=sr_1_821?dchild=1&qid=1614002050&s=digital-text&sr=1-821 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07VPVPP6Z/ref=sr_1_822?dchild=1&qid=1614002050&s=digital-text&sr=1-822 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B087LQTZ6F/ref=sr_1_823?dchild=1&qid=1614002050&s=digital-text&sr=1-823 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07MJJHDZC/ref=sr_1_824?dchild=1&qid=1614002050&s=digital-text&sr=1-824 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00SMJ0V8M/ref=sr_1_825?dchild=1&qid=1614002050&s=digital-text&sr=1-825 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B075R5F4GL/ref=sr_1_826?dchild=1&qid=1614002050&s=digital-text&sr=1-826 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08SJB46J1/ref=sr_1_827?dchild=1&qid=1614002050&s=digital-text&sr=1-827 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00SF0B9MK/ref=sr_1_829?dchild=1&qid=1614002050&s=digital-text&sr=1-829 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07ZJZNVRY/ref=sr_1_828?dchild=1&qid=1614002050&s=digital-text&sr=1-828 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08L959GM1/ref=sr_1_830?dchild=1&qid=1614002050&s=digital-text&sr=1-830 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01N6JO8AU/ref=sr_1_831?dchild=1&qid=1614002050&s=digital-text&sr=1-831 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B016KD5HCQ/ref=sr_1_832?dchild=1&qid=1614002050&s=digital-text&sr=1-832 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07JH9G2Z6/ref=sr_1_833?dchild=1&qid=1614002050&s=digital-text&sr=1-833 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00FF1Y9AQ/ref=sr_1_834?dchild=1&qid=1614002050&s=digital-text&sr=1-834 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00LL0M4JI/ref=sr_1_835?dchild=1&qid=1614002050&s=digital-text&sr=1-835 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07842RB2J/ref=sr_1_836?dchild=1&qid=1614002050&s=digital-text&sr=1-836 HTTP/1.1" 503 843
+INFO:start logging on: 2021-02-28--14-41-50 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01M8N162R/ref=sr_1_837?dchild=1&qid=1614002050&s=digital-text&sr=1-837 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B081RH2LPD/ref=sr_1_838?dchild=1&qid=1614002050&s=digital-text&sr=1-838 HTTP/1.1" 503 843
+INFO:start logging on: 2021-02-28--14-41-52 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01IV39IO6/ref=sr_1_839?dchild=1&qid=1614002050&s=digital-text&sr=1-839 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07MKFHLW1/ref=sr_1_840?dchild=1&qid=1614002050&s=digital-text&sr=1-840 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08VDF833Z/ref=sr_1_841?dchild=1&qid=1614002050&s=digital-text&sr=1-841 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08VN7458C/ref=sr_1_842?dchild=1&qid=1614002050&s=digital-text&sr=1-842 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00CBBJS5Y/ref=sr_1_843?dchild=1&qid=1614002050&s=digital-text&sr=1-843 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08TQK5M4B/ref=sr_1_844?dchild=1&qid=1614002050&s=digital-text&sr=1-844 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08J3T2C37/ref=sr_1_845?dchild=1&qid=1614002050&s=digital-text&sr=1-845 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B075RYXPWF/ref=sr_1_846?dchild=1&qid=1614002050&s=digital-text&sr=1-846 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B0851DLLWJ/ref=sr_1_847?dchild=1&qid=1614002050&s=digital-text&sr=1-847 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01HZFH2U8/ref=sr_1_848?dchild=1&qid=1614002050&s=digital-text&sr=1-848 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08GSBYJVB/ref=sr_1_881?dchild=1&qid=1614002051&s=digital-text&sr=1-881 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B0829V46GH/ref=sr_1_882?dchild=1&qid=1614002051&s=digital-text&sr=1-882 HTTP/1.1" 503 843
+DEBUG:Resetting dropped connection: www.amazon.cn
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00GU3Z0EC/ref=sr_1_883?dchild=1&qid=1614002051&s=digital-text&sr=1-883 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08FKMJM1T/ref=sr_1_884?dchild=1&qid=1614002051&s=digital-text&sr=1-884 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07R65FLYV/ref=sr_1_885?dchild=1&qid=1614002051&s=digital-text&sr=1-885 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07X4G2822/ref=sr_1_886?dchild=1&qid=1614002051&s=digital-text&sr=1-886 HTTP/1.1" 200 None
+INFO:start logging on: 2021-02-28--14-41-59 
+WARNING:failed on this book, please handle error!!!
+INFO:start logging on: 2021-02-28--14-41-59 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01N3XITR0/ref=sr_1_887?dchild=1&qid=1614002051&s=digital-text&sr=1-887 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08B3TLHLQ/ref=sr_1_888?dchild=1&qid=1614002051&s=digital-text&sr=1-888 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B076V78TVP/ref=sr_1_889?dchild=1&qid=1614002051&s=digital-text&sr=1-889 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00IR4A2N6/ref=sr_1_890?dchild=1&qid=1614002051&s=digital-text&sr=1-890 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08PB1J46M/ref=sr_1_891?dchild=1&qid=1614002051&s=digital-text&sr=1-891 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07X3ZCJFJ/ref=sr_1_892?dchild=1&qid=1614002051&s=digital-text&sr=1-892 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07DDGTDBY/ref=sr_1_893?dchild=1&qid=1614002051&s=digital-text&sr=1-893 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00J7IH2XO/ref=sr_1_894?dchild=1&qid=1614002051&s=digital-text&sr=1-894 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B071S5VZD6/ref=sr_1_895?dchild=1&qid=1614002051&s=digital-text&sr=1-895 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B086QZY9PL/ref=sr_1_896?dchild=1&qid=1614002051&s=digital-text&sr=1-896 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07NWG7N44/ref=sr_1_849?dchild=1&qid=1614002051&s=digital-text&sr=1-849 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07VGFJ76F/ref=sr_1_850?dchild=1&qid=1614002051&s=digital-text&sr=1-850 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07MX5JZY3/ref=sr_1_851?dchild=1&qid=1614002051&s=digital-text&sr=1-851 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B0861NMH18/ref=sr_1_852?dchild=1&qid=1614002051&s=digital-text&sr=1-852 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B06ZYX45JK/ref=sr_1_853?dchild=1&qid=1614002051&s=digital-text&sr=1-853 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00A76JDGE/ref=sr_1_854?dchild=1&qid=1614002051&s=digital-text&sr=1-854 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01F7IEM7Q/ref=sr_1_855?dchild=1&qid=1614002051&s=digital-text&sr=1-855 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07717436T/ref=sr_1_856?dchild=1&qid=1614002051&s=digital-text&sr=1-856 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B079JT4HW3/ref=sr_1_857?dchild=1&qid=1614002051&s=digital-text&sr=1-857 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07BBNBZR1/ref=sr_1_858?dchild=1&qid=1614002051&s=digital-text&sr=1-858 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07ZRFD1DQ/ref=sr_1_859?dchild=1&qid=1614002051&s=digital-text&sr=1-859 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07KW12YLN/ref=sr_1_860?dchild=1&qid=1614002051&s=digital-text&sr=1-860 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07DFYS7KP/ref=sr_1_861?dchild=1&qid=1614002051&s=digital-text&sr=1-861 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B015QSNJHG/ref=sr_1_862?dchild=1&qid=1614002051&s=digital-text&sr=1-862 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B078TFF466/ref=sr_1_863?dchild=1&qid=1614002051&s=digital-text&sr=1-863 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08SM2VY1B/ref=sr_1_864?dchild=1&qid=1614002051&s=digital-text&sr=1-864 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01CU6MTBE/ref=sr_1_865?dchild=1&qid=1614002051&s=digital-text&sr=1-865 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00K08C0KU/ref=sr_1_866?dchild=1&qid=1614002051&s=digital-text&sr=1-866 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B079RVP3YC/ref=sr_1_867?dchild=1&qid=1614002051&s=digital-text&sr=1-867 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07CHSDN9Z/ref=sr_1_868?dchild=1&qid=1614002051&s=digital-text&sr=1-868 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01N0HH4U6/ref=sr_1_869?dchild=1&qid=1614002051&s=digital-text&sr=1-869 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07R3R52XN/ref=sr_1_870?dchild=1&qid=1614002051&s=digital-text&sr=1-870 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00YQRZRZ6/ref=sr_1_871?dchild=1&qid=1614002051&s=digital-text&sr=1-871 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08PCSLRNQ/ref=sr_1_872?dchild=1&qid=1614002051&s=digital-text&sr=1-872 HTTP/1.1" 503 843
+INFO:start logging on: 2021-02-28--14-42-14 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B088BGT1L7/ref=sr_1_874?dchild=1&qid=1614002051&s=digital-text&sr=1-874 HTTP/1.1" 503 1319
+DEBUG:https://www.amazon.cn:443 "GET /dp/B075R3CN12/ref=sr_1_873?dchild=1&qid=1614002051&s=digital-text&sr=1-873 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07WG17NRT/ref=sr_1_875?dchild=1&qid=1614002051&s=digital-text&sr=1-875 HTTP/1.1" 503 843
+INFO:start logging on: 2021-02-28--14-42-15 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B088B4Q796/ref=sr_1_876?dchild=1&qid=1614002051&s=digital-text&sr=1-876 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B073GTZCQ8/ref=sr_1_877?dchild=1&qid=1614002051&s=digital-text&sr=1-877 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07Y325TPS/ref=sr_1_878?dchild=1&qid=1614002051&s=digital-text&sr=1-878 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00IOAM6UK/ref=sr_1_879?dchild=1&qid=1614002051&s=digital-text&sr=1-879 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B008QM7XUO/ref=sr_1_880?dchild=1&qid=1614002051&s=digital-text&sr=1-880 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08FCZ17LS/ref=sr_1_897?dchild=1&qid=1614002051&s=digital-text&sr=1-897 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B086X3MVGG/ref=sr_1_898?dchild=1&qid=1614002051&s=digital-text&sr=1-898 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07GSRFG28/ref=sr_1_899?dchild=1&qid=1614002051&s=digital-text&sr=1-899 HTTP/1.1" 503 1319
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08RNDHDW3/ref=sr_1_900?dchild=1&qid=1614002051&s=digital-text&sr=1-900 HTTP/1.1" 503 843
+INFO:start logging on: 2021-02-28--14-42-18 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B077QDDRCN/ref=sr_1_901?dchild=1&qid=1614002051&s=digital-text&sr=1-901 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01HZFHLW2/ref=sr_1_902?dchild=1&qid=1614002051&s=digital-text&sr=1-902 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01G8N6IZS/ref=sr_1_903?dchild=1&qid=1614002051&s=digital-text&sr=1-903 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07MXC62YJ/ref=sr_1_904?dchild=1&qid=1614002051&s=digital-text&sr=1-904 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07VDC1HL8/ref=sr_1_905?dchild=1&qid=1614002051&s=digital-text&sr=1-905 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B078JPZ6NG/ref=sr_1_906?dchild=1&qid=1614002051&s=digital-text&sr=1-906 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B073B1HLJF/ref=sr_1_907?dchild=1&qid=1614002051&s=digital-text&sr=1-907 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08F2L7K8D/ref=sr_1_909?dchild=1&qid=1614002051&s=digital-text&sr=1-909 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07VK58QQR/ref=sr_1_908?dchild=1&qid=1614002051&s=digital-text&sr=1-908 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07M5X4TTK/ref=sr_1_910?dchild=1&qid=1614002051&s=digital-text&sr=1-910 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08R9SJDS7/ref=sr_1_911?dchild=1&qid=1614002051&s=digital-text&sr=1-911 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08W539QSB/ref=sr_1_912?dchild=1&qid=1614002051&s=digital-text&sr=1-912 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07BSLNQN8/ref=sr_1_913?dchild=1&qid=1614002051&s=digital-text&sr=1-913 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08NSWM8BM/ref=sr_1_914?dchild=1&qid=1614002051&s=digital-text&sr=1-914 HTTP/1.1" 503 1319
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07FXH4MBD/ref=sr_1_915?dchild=1&qid=1614002051&s=digital-text&sr=1-915 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07Y8211GN/ref=sr_1_916?dchild=1&qid=1614002051&s=digital-text&sr=1-916 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08FSXBF7J/ref=sr_1_917?dchild=1&qid=1614002051&s=digital-text&sr=1-917 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08S6WSNM8/ref=sr_1_918?dchild=1&qid=1614002051&s=digital-text&sr=1-918 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B072R62XWL/ref=sr_1_919?dchild=1&qid=1614002051&s=digital-text&sr=1-919 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07F8QD252/ref=sr_1_920?dchild=1&qid=1614002051&s=digital-text&sr=1-920 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08L935QK1/ref=sr_1_921?dchild=1&qid=1614002051&s=digital-text&sr=1-921 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08DY2N1HS/ref=sr_1_922?dchild=1&qid=1614002051&s=digital-text&sr=1-922 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B008QM2I9U/ref=sr_1_923?dchild=1&qid=1614002051&s=digital-text&sr=1-923 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07KW2NG17/ref=sr_1_924?dchild=1&qid=1614002051&s=digital-text&sr=1-924 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08B5MM2WP/ref=sr_1_925?dchild=1&qid=1614002051&s=digital-text&sr=1-925 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08BYLHQPL/ref=sr_1_926?dchild=1&qid=1614002051&s=digital-text&sr=1-926 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B086635Q9V/ref=sr_1_927?dchild=1&qid=1614002051&s=digital-text&sr=1-927 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07BGYKP82/ref=sr_1_928?dchild=1&qid=1614002051&s=digital-text&sr=1-928 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00UH9IBQO/ref=sr_1_929?dchild=1&qid=1614002051&s=digital-text&sr=1-929 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07GKBY79G/ref=sr_1_930?dchild=1&qid=1614002051&s=digital-text&sr=1-930 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00LITFFWA/ref=sr_1_932?dchild=1&qid=1614002051&s=digital-text&sr=1-932 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01MSIQRNJ/ref=sr_1_931?dchild=1&qid=1614002051&s=digital-text&sr=1-931 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00FF1Y76W/ref=sr_1_933?dchild=1&qid=1614002051&s=digital-text&sr=1-933 HTTP/1.1" 503 843
+INFO:start logging on: 2021-02-28--14-42-33 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07JH991K7/ref=sr_1_934?dchild=1&qid=1614002051&s=digital-text&sr=1-934 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07Y53R5K1/ref=sr_1_935?dchild=1&qid=1614002051&s=digital-text&sr=1-935 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07WPRPQMN/ref=sr_1_936?dchild=1&qid=1614002051&s=digital-text&sr=1-936 HTTP/1.1" 503 843
+INFO:start logging on: 2021-02-28--14-42-34 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B075GJ5NS6/ref=sr_1_937?dchild=1&qid=1614002051&s=digital-text&sr=1-937 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07YF84WV3/ref=sr_1_938?dchild=1&qid=1614002051&s=digital-text&sr=1-938 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07G31J9XM/ref=sr_1_939?dchild=1&qid=1614002051&s=digital-text&sr=1-939 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01N3XCHN1/ref=sr_1_940?dchild=1&qid=1614002051&s=digital-text&sr=1-940 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08422F1MC/ref=sr_1_941?dchild=1&qid=1614002051&s=digital-text&sr=1-941 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08662DJNH/ref=sr_1_942?dchild=1&qid=1614002051&s=digital-text&sr=1-942 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B072XKSGJ4/ref=sr_1_943?dchild=1&qid=1614002051&s=digital-text&sr=1-943 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B010ERKDT6/ref=sr_1_944?dchild=1&qid=1614002051&s=digital-text&sr=1-944 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08KZZPF98/ref=sr_1_961?dchild=1&qid=1614002052&s=digital-text&sr=1-961 HTTP/1.1" 503 1319
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07Q348Q9K/ref=sr_1_962?dchild=1&qid=1614002052&s=digital-text&sr=1-962 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07CG7N52T/ref=sr_1_963?dchild=1&qid=1614002052&s=digital-text&sr=1-963 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07LGK7Z7J/ref=sr_1_964?dchild=1&qid=1614002052&s=digital-text&sr=1-964 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B077ZWKN3Y/ref=sr_1_965?dchild=1&qid=1614002052&s=digital-text&sr=1-965 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B008H0ATOC/ref=sr_1_966?dchild=1&qid=1614002052&s=digital-text&sr=1-966 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B077SNL13V/ref=sr_1_967?dchild=1&qid=1614002052&s=digital-text&sr=1-967 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08RRR2QTR/ref=sr_1_968?dchild=1&qid=1614002052&s=digital-text&sr=1-968 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B084ZNNHNR/ref=sr_1_969?dchild=1&qid=1614002052&s=digital-text&sr=1-969 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08RRM8P85/ref=sr_1_970?dchild=1&qid=1614002052&s=digital-text&sr=1-970 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01I4PQZ6U/ref=sr_1_971?dchild=1&qid=1614002052&s=digital-text&sr=1-971 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00TGW04EU/ref=sr_1_972?dchild=1&qid=1614002052&s=digital-text&sr=1-972 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08GYRTQC2/ref=sr_1_973?dchild=1&qid=1614002052&s=digital-text&sr=1-973 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07SN3C4BY/ref=sr_1_974?dchild=1&qid=1614002052&s=digital-text&sr=1-974 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01GFOKEVE/ref=sr_1_975?dchild=1&qid=1614002052&s=digital-text&sr=1-975 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01JHTJS8Y/ref=sr_1_976?dchild=1&qid=1614002052&s=digital-text&sr=1-976 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B009WMARYG/ref=sr_1_945?dchild=1&qid=1614002052&s=digital-text&sr=1-945 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07SVX8YCR/ref=sr_1_946?dchild=1&qid=1614002052&s=digital-text&sr=1-946 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07FPDVSP9/ref=sr_1_947?dchild=1&qid=1614002052&s=digital-text&sr=1-947 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07G758L11/ref=sr_1_948?dchild=1&qid=1614002052&s=digital-text&sr=1-948 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B07YTPQCGC/ref=sr_1_949?dchild=1&qid=1614002052&s=digital-text&sr=1-949 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00L0WLUGA/ref=sr_1_950?dchild=1&qid=1614002052&s=digital-text&sr=1-950 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B00UIVZ1EQ/ref=sr_1_951?dchild=1&qid=1614002052&s=digital-text&sr=1-951 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B087JH37K3/ref=sr_1_952?dchild=1&qid=1614002052&s=digital-text&sr=1-952 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B0832TS2JD/ref=sr_1_953?dchild=1&qid=1614002052&s=digital-text&sr=1-953 HTTP/1.1" 200 None
+DEBUG:https://www.amazon.cn:443 "GET /dp/B015317AR6/ref=sr_1_954?dchild=1&qid=1614002052&s=digital-text&sr=1-954 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B0865TQ6DJ/ref=sr_1_955?dchild=1&qid=1614002052&s=digital-text&sr=1-955 HTTP/1.1" 503 843
+INFO:start logging on: 2021-02-28--14-42-51 
+WARNING:failed on this book, please handle error!!!
+DEBUG:https://www.amazon.cn:443 "GET /dp/B014KHGGB0/ref=sr_1_956?dchild=1&qid=1614002052&s=digital-text&sr=1-956 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B08L4Z4W91/ref=sr_1_957?dchild=1&qid=1614002052&s=digital-text&sr=1-957 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B075HGDX88/ref=sr_1_958?dchild=1&qid=1614002052&s=digital-text&sr=1-958 HTTP/1.1" 503 1319
+DEBUG:https://www.amazon.cn:443 "GET /dp/B01IV39IOG/ref=sr_1_959?dchild=1&qid=1614002052&s=digital-text&sr=1-959 HTTP/1.1" 503 843
+DEBUG:https://www.amazon.cn:443 "GET /dp/B017B1HMXI/ref=sr_1_960?dchild=1&qid=1614002052&s=digital-text&sr=1-960 HTTP/1.1" 503 843

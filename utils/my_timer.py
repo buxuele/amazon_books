@@ -1,6 +1,7 @@
 import time
 
 
+# 完全可可以试试内建的 timeit         todo 重写这部分
 # 这个是常用的时间显示方式
 def chinese_time():
     # print(datetime.now())         # 2020-12-31 19:40:58.431721

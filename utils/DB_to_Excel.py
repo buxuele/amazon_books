@@ -42,7 +42,8 @@ def write_all_books():
     excel_name = 'Amazon_Computer_Books_Info.xlsx'
     sheet_name = 'book_urls'
     # client = Mongo(books_db, book_urls_coll)
-    client = Mongo("amazon_books", "books_info_9")
+    # client = Mongo("amazon_books", "books_info_9")    #
+    client = Mongo("amazon_books", "books_info_10")
 
     wb = Workbook()
     if sheet_name not in wb.sheetnames:

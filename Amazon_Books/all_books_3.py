@@ -5,6 +5,7 @@
 # about:
 
 import re
+import time
 import random
 
 from utils.mongoDB import Mongo
@@ -17,24 +18,20 @@ from config import books_db, book_urls_coll, book_info_coll, proxy_db, proxy_col
 import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
+from retry import retry
 from concurrent.futures import ThreadPoolExecutor, wait, ALL_COMPLETED
 
 """ 改写 book_info_2.py 爬取全部的图书信息。"""
 
 
-# todo 此时的数据是不完整的。一大堆报错的信息。 需要找时间再跑一下。
-# todo 1. 添加代理  2. 线程开到15个。
-# todo 如何检查数据完整性呢。比如 页数，出版社，有些值是空的，写入 Excel时会报错的。
+# todo 修改自己的代理之后再来跑一下, 现在先搁置了。
 class AllBookInfo:
     def __init__(self):
-        # food = {}          # 以一个字典的形式, 临时保存每本书的信息
-        # 不能放在这里，因为保存的时候，pymongo  duplicate key error.
-        # 因为实例化一个类变量的话，那么地址就是固定的了。
-        # 可以在 parse() 里面定义，每次调用 parse(), 就给出一个新的 food={},以及一个新的地址。
         self.session = requests.Session()
         self.proxy_pool = Mongo(proxy_db, proxy_coll).get_unique()
         self.book_urls = Mongo(books_db, book_urls_coll)
         self.book_db = Mongo(books_db, book_info_coll)
+        self.status = 0         # 用做监控的变量
 
     @staticmethod
     def make_headers():
@@ -53,6 +50,7 @@ class AllBookInfo:
 
     def visit(self, url):
         h = self.make_headers()
+
         p = random.choice(self.proxy_pool)
         if p.startswith("http://"):
             use_proxies = {"http": p}
@@ -60,8 +58,8 @@ class AllBookInfo:
             use_proxies = {"https": p}
 
         try:
-            # resp = self.session.get(url, headers=h, proxies=use_proxies, allow_redirects=False)
-            resp = self.session.get(url, headers=h, allow_redirects=False)      # 不使用代理。
+            resp = self.session.get(url, headers=h, proxies=use_proxies, allow_redirects=False)
+            # resp = self.session.get(url, headers=h, allow_redirects=False)      # 不使用代理。
             if resp.status_code == 200:
                 # print(f"working on: {url}")
                 # 这里可能会跳转到登录界面。导致后面的解析出错。
@@ -73,12 +71,13 @@ class AllBookInfo:
             logger(e)
 
     # 解析书籍的信息，大致分3部分。
-    # todo 。以及我最喜欢的封面图片链接。
+    @retry(ConnectionError, tries=2, delay=10)  # 如果有问题，就停歇 10s
     def parse_data(self, url):
-        food = {}  # 以一个字典的形式, 临时保存每本书的信息
+        # 以一个字典的形式, 临时保存每本书的信息
+        food = {'ASIN': '', 'X-Ray': '', 'author': '', 'author_info': '', 'book_about': '', 'book_image_url': '', 'book_name': '', 'book_url': '', 'brand': '', 'file_size': '', 'language': '', 'pages': '', 'price': '', 'publish_time': '', 'publisher': '', 'reading_helper': '', 'recommend_reason': '', 'voice_status': ''}
         html = self.visit(url)
         if html:
-            # print(f"working on: {url}")
+
 
             soup = BeautifulSoup(html.text, "lxml")
             # todo 标题 = 书名 + 副标题， 不太容易分开, 因为空格的位置不规则。
@@ -114,7 +113,6 @@ class AllBookInfo:
                 food["author_info"] = author_info
                 food["book_about"] = book_about
             else:
-                # todo: handle error
                 logger("failed on this book, please handle error!!!")
 
             publish_info = soup.find('div', attrs={'id': 'detailBullets_feature_div'})
@@ -152,8 +150,14 @@ class AllBookInfo:
             else:
                 logger("failed on this book, please handle error!!!")
 
-        if food:
+        if len([j for j in food.values() if j]) < 10:   # 总共18项内容，如果少于10项，那么就重试
+            print("数据不完整，正在重试中...")
+            # todo retrying
+        else:
+            self.status += 1
+            print(f"{self.status}working on: {url}")
             self.book_db.coll.insert_one(food)
+        # time.sleep(random.random() * 4)
 
     def get_book_urls(self):
         urls = [x["url"] for x in self.book_urls.coll.find()]
@@ -163,8 +167,8 @@ class AllBookInfo:
     @timer
     def run(self):
         urls = self.get_book_urls()
-        # 线程数，也可以防放在初始化里面。
-        with ThreadPoolExecutor(max_workers=5) as executor:
+        # 线程数 2，不能给的太多了。
+        with ThreadPoolExecutor(max_workers=30) as executor:
             future_tasks = [executor.submit(self.parse_data, u) for u in urls]
             # future_tasks = [executor.submit(self.visit, u) for u in urls]
             wait(future_tasks, return_when=ALL_COMPLETED)

@@ -1,15 +1,13 @@
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept: text/html,*/*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-Cache-Control: max-age=0
 Connection: keep-alive
-downlink: 3.85
-ect: 4g
+downlink: 1.5
+ect: 3g
 Host: www.amazon.cn
-rtt: 100
+rtt: 300
 sec-ch-ua-mobile: ?0
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: none
-Sec-Fetch-User: ?1
-Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+X-Requested-With: XMLHttpRequest

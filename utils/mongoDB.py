@@ -35,10 +35,10 @@ class Mongo:
         return self.coll.find()
 
     def show_data(self):
-        for x in self.coll.find():
-            pprint(x)
-            if "brand" not in x.keys():
-                self.coll.delete_one(x)
+        # for x in self.coll.find():
+        #     pprint(x)
+        #     if "brand" not in x.keys():
+        #         self.coll.delete_one(x)
 
         print("all data is: ", self.coll.count_documents({}))
 
@@ -82,7 +82,10 @@ class Mongo:
 
 
 if __name__ == '__main__':
-    m = Mongo("amazon_books", "books_info_9")
+    # m = Mongo("amazon_books", "computer_book_urls")       # 6398
+    # m = Mongo("amazon_books", "books_info_9")             # 2914 这里的数据差的太多了。
+    m = Mongo("amazon_books", "books_info_10")
+
     m.show_data()
 
 

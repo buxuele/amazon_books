@@ -6,7 +6,6 @@
 # 如果效果不错的话，后期可以试试看用 scrapy
 
 import re
-
 from utils.mongoDB import Mongo
 from utils.logger import logger
 from utils.get_user_agent import get_a_ua
@@ -15,9 +14,14 @@ from utils.req_headers import make_headers
 import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
+from retry import retry
 
 
-""" 获取单个页面的信息。"""
+""" 
+这个文件的目的：
+1. 看看单独请求一个页面是否会有问题。
+2. 尝试一些小功能。
+"""
 
 
 class BookInfo:
@@ -40,8 +44,9 @@ class BookInfo:
                 x, y = a.strip().split(": ")
                 dic[x] = y
         dic.update(h)
-        pprint(dic)
+        # pprint(dic)
         return dic
+
 
     def visit(self, url):
         # p = random.choice(self.proxy_pool)
@@ -57,14 +62,14 @@ class BookInfo:
             resp = self.session.get(url, headers=h, allow_redirects=False)
             if resp.status_code == 200:
                 # 这里可能会跳转到登录界面。导致后面的解析出错。
-                print(resp.text)
+                # print(resp.text)
                 # print(resp.url)     # 看看响应的url 与请求的url有什么不同。
                 return resp
         except ConnectionError as e:
             logger(f"bad url: {url}")
 
     # 解析书籍的信息，大致分3部分。
-    # todo 。以及我最喜欢的封面图片链接。
+
     def parse_data(self, url):
         html = self.visit(url)
         if html:
@@ -96,7 +101,8 @@ class BookInfo:
                 self._parse_publish_info(publish_info)
             else:
                 print("failed on this book, please handle error!!!")
-            self.book_db.add_to_db(self.food)
+            # self.book_db.add_to_db(self.food)
+
 
     # 紧接着处理解析书籍的描述信息
     def _parse_description(self, ele):
@@ -149,7 +155,7 @@ class BookInfo:
 
     def show_data(self):
         pprint(self.food)
-    #
+
     # def save_data(self):
     #     # 这里也是需要检查一下看看 food 里面是否有值。如果没有值的话，那么就警告一下。
     #     self.book_db.add_to_db(self.food)
@@ -157,8 +163,9 @@ class BookInfo:
 
 if __name__ == '__main__':
     r = BookInfo()
-    u = 'https://www.amazon.cn/dp/B01HZFHE1U/ref=sr_1_127?dchild=1&qid=1613981559&s=digital-text&sr=1-127'
-    # u = 'https://www.amazon.cn/dp/B074TBNZLK/ref=sr_1_38?dchild=1&qid=1614070965&s=digital-text&sr=1-38'
+    # u = 'https://www.amazon.cn/dp/B01HZFHE1U/ref=sr_1_127?dchild=1&qid=1613981559&s=digital-text&sr=1-127'
+    u = 'https://www.amazon.cn/dp/B074TBNZLK/ref=sr_1_38?dchild=1&qid=1614070965&s=digital-text&sr=1-38'
+    # u = 'https://www.amazon.cn/dp/B0719GSVJB/ref=sr_1_4?dchild=1&qid=1614414899&s=digital-text&sr=1-4'
     # r.visit(u)
     # r.make_headers()
 
